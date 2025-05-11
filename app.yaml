@@ -1,0 +1,19 @@
+runtime: nodejs20
+env: standard
+
+instance_class: F1
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+
+env_variables:
+  VITE_SUPABASE_URL: "https://kuvalqtsdhyvqrbztxea.supabase.co"
+  VITE_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt1dmFscXRzZGh5dnFyYnp0eGVhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5ODcxMjQsImV4cCI6MjA2MjU2MzEyNH0.86NJxrKYgkdcK35DX5s7caK3X7gyUSIeJ9yOz2Dxs40"
+
+handlers:
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto
