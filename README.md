@@ -2,7 +2,7 @@
 
 Website URL : https://ethereal-runway-451504-k2.uc.r.appspot.com/
 
-Demo URL : https://github.com/haneesh-1856/Hire-Connect-CC-Group-14
+Demo URL : https://drive.google.com/file/d/1Ytn4-YCmggoxlzlpMinVICSxa-P3vqY9/view?usp=sharing
 
 Purpose:
 1.	To create Job platform that uses referrals as a foundation of its work and enables jobseekers to connect with qualified referrers.
